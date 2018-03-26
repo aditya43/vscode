@@ -1,0 +1,159 @@
+{
+    "editor.fontFamily": "Fira Code Medium",
+    "emmet.triggerExpansionOnTab": true, // enable tab to expanse emmet tags
+    "blade.format.enable": true, // if you would like to enable blade format
+    "editor.fontSize": 17,
+    "editor.wordWrap": "on",
+    "editor.lineHeight": 45,
+    "window.zoomLevel": 0.8,
+    "editor.minimap.enabled": false,
+    "editor.mouseWheelScrollSensitivity": 3,
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": true,
+        "strings": true
+    },
+    "editor.renderIndentGuides": false,
+    "editor.renderLineHighlight": "gutter",
+    "editor.smoothScrolling": true,
+    "editor.tabCompletion": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "One Dark Pro",
+    "php.suggest.basic": false,
+    "sqltools.formatLanguages": [
+        "sql",
+        "php"
+    ],
+    "window.menuBarVisibility": "default",
+    "workbench.activityBar.visible": true,
+    "workbench.startupEditor": "none",
+    "php-cs-fixer.formatHtml": false,
+    "php-cs-fixer.onsave": true,
+    "php-cs-fixer.autoFixBySemicolon": false,
+    "php-cs-fixer.config": "/home/aditya/adi_php_cs_formatter.php_cs",
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.enableBell": true,
+    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.lineHeight": 1.4,
+    "terminal.integrated.setLocaleVariables": true,
+    "editor.dragAndDrop": false,
+    "editor.occurrencesHighlight": true,
+    "sqltools.showResultOnTab": true,
+    "sqltools.telemetry": false,
+    "[blade]": {},
+    "editor.formatOnSave": false,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "[yaml]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 4,
+        "editor.autoIndent": false
+    },
+    // "prettier.disableLanguages": [
+    //     "blade",
+    //     "laravel-blade"
+    // ],
+    "prettier.tabWidth": 4,
+    "html.format.enable": false,
+    "macros": {
+        "adisave": [
+            // "editor.action.reindentlines",
+            "workbench.action.files.save"
+        ]
+    },
+    "php-cs-fixer.allowRisky": true,
+    "vetur.format.defaultFormatter.html": "js-beautify-html",
+    "vetur.format.defaultFormatterOptions": {
+        "js-beautify-html": {
+            "indent_size": 4,
+            "indent_char": " ",
+            "indent_with_tabs": false,
+            "eol": "\n",
+            "end_with_newline": false,
+            "indent_level": 0,
+            "preserve_newlines": true,
+            "max_preserve_newlines": 9999999,
+            "space_in_paren": true,
+            "space_in_empty_paren": false,
+            "jslint_happy": false,
+            "space_after_anon_function": true,
+            "brace_style": "collapse",
+            "unindent_chained_methods": false,
+            "break_chained_methods": false,
+            "keep_array_indentation": false,
+            "unescape_strings": false,
+            "wrap_line_length": 0,
+            "e4x": false,
+            "comma_first": false,
+            "operator_position": "before-newline"
+        }
+    },
+    "[vue]": {
+        "editor.formatOnSave": true,
+    },
+    "editor.cursorBlinking": "expand",
+    "emmet.showExpandedAbbreviation": "inMarkupAndStylesheetFilesOnly",
+    "eslint.validate": [
+        "javascript",
+        "vue"
+      ],
+      "files.trimTrailingWhitespace": true,
+      "emmet.includeLanguages": {
+        "blade.php": "html",
+        "vue": "html"
+    },
+    "files.associations": {
+        ".php_cs": "php",
+        ".php_cs.dist": "php",
+        // "*.blade.php": "blade",
+        // "*.vue": "vue",
+        // "*.sql": "sql",
+        ".php": "php" // this is super important, otherwise intelephense will not auto-index your project.
+    },
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+
+        // Hide everything in /public, except "index.php"
+        "**/public/[abcdefghjklmnopqrstuvwxyz]*": true,
+        "**/public/i[abcdefghijklmopqrstuvwxyz]*": true,
+
+        // Hide everything in /vendor, except "laravel" folder.
+        "**/vendor/[abcdefghijkmnopqrstuvwxyz]*": true,
+        "**/vendor/l[bcdefghijklmnopqrstuvwxyz]*": true,
+
+        "storage/framework/views": true
+    },
+    "editor.codeLens": false,
+    "explorer.openEditors.visible": 0,
+    "editor.fontLigatures": true,
+    "disableLigatures.mode": "Cursor",
+    "editor.quickSuggestionsDelay": 5,
+    "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
+    "workbench.sideBar.location": "right",
+    "editor.glyphMargin": false,
+    "material-icon-theme.activeIconPack": "angular_ngrx",
+    "material-icon-theme.folders.theme": "classic",
+    "material-icon-theme.folders.color": "#90a4ae",
+    // "editor.matchBrackets": false,
+    "[html]": {
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": true
+    }
+},
+"editor.selectionHighlight": false,
+"editor.cursorStyle": "line",
+"javascript.validate.enable": false,
+"workbench.colorCustomizations":{
+    "editor.background": "#1b1f24",
+    "editorBracketMatch.border": "#202c3b",
+	"editorBracketMatch.background": "#202c3b"
+},
+"emmet.showSuggestionsAsSnippets": true,
+"search.quickOpen.includeSymbols": false,
+"php.validate.run": "onType",
+"vscode-mysql.enableTelemetry": false,
+"intelephense.completionProvider.backslashPrefix": false
+}
